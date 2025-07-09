@@ -29,7 +29,7 @@ const About: React.FC = () => {
   const handleDownloadResume = () => {
     // Create a temporary link to download resume
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // You'll need to add your resume file to the public folder
+    link.href = 'CV.pdf'; // You'll need to add your resume file to the public folder
     link.download = 'Sutapa_Maity_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -47,7 +47,7 @@ const About: React.FC = () => {
             <div className="w-80 h-80 mx-auto bg-gradient-to-br from-yellow-400/20 to-pink-400/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-gray-700">
               {profileImage ? (
                 <img
-                  src={profileImage}
+                  src= {my3.jpg}
                   alt="Sutapa Maity"
                   className="w-76 h-76 rounded-lg object-cover"
                 />
