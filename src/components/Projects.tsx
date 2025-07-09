@@ -40,7 +40,7 @@ const projects: Project[] = [
     description: 'Beauty care companion app with personalized routines and product recommendations.',
     techStack: ['React Native', 'Firebase', 'Node.js', 'AI/ML'],
     github: 'https://github.com/sutapa703/glowzyy',
-    demo: 'https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3--5173--96435430.local-credentialless.webcontainer-api.io/dashboard',
+    demo: 'https://glowzykit.vercel.app/auth',
     image: 'https://images.pexels.com/photos/3373714/pexels-photo-3373714.jpeg?auto=compress&cs=tinysrgb&w=600'
   },
   {
